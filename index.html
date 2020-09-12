@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triki Juego</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: azure;
+        }
+
+        #container {
+            display: grid;
+            grid-template: repeat(3, 100px) / repeat(3, 100px);
+            background-color: burlywood;
+        }
+
+        span {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: antiquewhite;
+            margin: 1px;
+            cursor: pointer;
+        }
+
+        span:hover {
+            color: red;
+            border: 1px solid aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container"></div>
+    <!-- 
+    <p>X | X | X</p>
+    <p>X | X | X</p>
+    <p>X | X | X</p> -->
+
+    <script src="main.js">
+     
+    </script>
+</body>
+
+</html>
